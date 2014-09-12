@@ -1,13 +1,5 @@
-/*******************************************************************************
-Slate Theme for GitHub Pages
-by Jason Costello, @jsncostello
-*******************************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
-@import url(pygment_trac.css);
-
-/*******************************************************************************
-MeyerWeb Reset
-*******************************************************************************/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -25,7 +17,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+  font-family: 'Oxygen', sans-serif;
   vertical-align: baseline;
 }
 
@@ -49,11 +41,11 @@ Theme Styles
 *******************************************************************************/
 
 body {
+
   box-sizing: border-box;
-  color:#29aba4;
   background: #e9e0d6;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'Oxygen', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -61,14 +53,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
+  color: #3a9ad9;
 }
 
 h1 {
-  font-size: 36px;
+   font-size: 36px;
   font-weight: 700;
+  color: #3a9ad9;
 }
 
 h2 {
@@ -98,7 +90,7 @@ p {
 }
 
 footer p {
-  color: #29aba4;
+  color: #3a9ad9;
 }
 
 a {
@@ -121,7 +113,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #29aba4;
+  color: #3a9ad9;
   text-decoration: underline;
 }
 
@@ -162,7 +154,7 @@ pre, code {
   color: #222;
   background-color: #fff;
 
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'Oxygen', sans-serif;
   font-size: 14px;
 
   border-radius: 2px;
@@ -238,7 +230,7 @@ table {
  }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Oxygen', sans-serif;
   padding: 10px;
   background: #eb7260;
   color: #fff;
@@ -260,11 +252,13 @@ Full-Width Styles
 
 .outer {
   width: 100%;
+
 }
 
 .inner {
   position: relative;
-  max-width: 640px;
+  width: 1100px;
+  
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -285,23 +279,18 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background-color: #354458;
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 30px 10px 30px 10px;
 }
 
 #project_title {
   margin: 0;
-  color: #fff;
-  font-size: 42px;
-  font-weight: 700;
+  color: #3a9ad9;
+  font-size: 30px;
+  font-weight: 400;
   text-shadow: #111 0px 0px 10px;
 }
 
@@ -382,8 +371,8 @@ Small Device Styles
   }
 
   .inner {
-    min-width: 320px;
-    max-width: 480px;
+    min-width: 350px;
+    max-width: 600px;
   }
 
   #project_title {
