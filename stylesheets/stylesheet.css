@@ -98,7 +98,7 @@ p {
 }
 
 footer p {
-  color: #f2f2f2;
+  color: #29aba4;
 }
 
 a {
@@ -121,7 +121,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #29aba4;
   text-decoration: underline;
 }
 
@@ -232,7 +232,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  border: 1px solid #eb7260;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -240,13 +240,13 @@ table {
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
-  background: #373737;
+  background: #eb7260;
   color: #fff;
  }
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  border: 1px solid #eb7260;
  }
 
 form {
@@ -363,7 +363,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #354458;
 }
 
 
