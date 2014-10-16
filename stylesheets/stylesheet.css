@@ -343,11 +343,13 @@ Full-Width Styles
 
 #main_content_wrap {
   background:url(../images/fondo.jpg)repeat;
+  height: 500px;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
 #main_content {
+  text-align: center;
   padding-top: 40px;
 }
 
